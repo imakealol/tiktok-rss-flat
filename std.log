@@ -1,72 +1,10 @@
-2024-06-25 17:23:44,156 Using selector: EpollSelector
-2024-06-25 17:25:46,216 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-06-25 17:25:46,216 Using selector: EpollSelector
-2024-06-25 17:27:48,299 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-06-25 17:27:48,299 Using selector: EpollSelector
-2024-06-25 17:27:48,796 Error: BrowserType.launch: Target page, context or browser has been closed
-Browser logs:
-
-<launching> /home/runner/.cache/ms-playwright/chromium-1117/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-XXXXXX12mraH --remote-debugging-pipe --no-startup-window
-<launched> pid=3235
-[pid=3235][err] [0625/172748.585240:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-[pid=3235][err] [0625/172748.588512:INFO:config_dir_policy_loader.cc(118)] Skipping mandatory platform policies because no policy file was found at: /etc/chromium/policies/managed
-[pid=3235][err] [0625/172748.588533:INFO:config_dir_policy_loader.cc(118)] Skipping recommended platform policies because no policy file was found at: /etc/chromium/policies/recommended
-[pid=3235][err] Received signal 11 SI_KERNEL000000000000
-[pid=3235][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
-[pid=3235][err] #0 0x5620d629a332 [0625/172748.592571:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
-[pid=3235][err] base::debug::CollectStackTrace()
-[pid=3235][err] #1 0x5620d62879fe base::debug::StackTrace::StackTrace()
-[pid=3235][err] #2 0x5620d6299d41 base::debug::(anonymous namespace)::StackDumpSignalHandler()
-[pid=3235][err] #3 0x7f8d86c42520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
-[pid=3235][err] #4 0x7f8d86c44c1d getenv
-[pid=3235][err] #5 0x5620d6423679 epoll_init
-[pid=3235][err] #6 0x5620d6420b21 event_base_new
-[pid=3235][err] #7 0x5620d62a662d base::MessagePumpLibevent::MessagePumpLibevent()
-[pid=3235][err] #8 0x5620d61e7eeb base::MessagePump::Create()
-[pid=3235][err] #9 0x5620d6269423 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
-[pid=3235][err] #10 0x5620d6269078 base::Thread::ThreadMain()
-[pid=3235][err] #11 0x5620d627d4ca base::(anonymous namespace)::ThreadFunc()
-[pid=3235][err] #12 0x7f8d86c94ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
-[pid=3235][err] #13 0x7f8d86d26850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
-[pid=3235][err]   r8: ffffffffffffffff  r9: 0000079c00353160 r10: 00007ffd339c9080 r11: 0000000000000246
-[pid=3235][err]  r12: 00dc2200901c0000 r13: 000000000000000d r14: 000000000000000b r15: 00005620cf1db6b4
-[pid=3235][err]   di: 00005620cf1db6b2  si: 00007f8d709fb310  bp: 0000000000005645  bx: 00001c900022c800
-[pid=3235][err]   dx: 00005620cf1db6b2  ax: 000000000000000d  cx: 00007f8d86cec09b  sp: 00007f8d709fb2a0
-[pid=3235][err]   ip: 00007f8d86c44c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
-[pid=3235][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
-[pid=3235][err] [end of stack trace]
-Call log:
-<launching> /home/runner/.cache/ms-playwright/chromium-1117/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-XXXXXX12mraH --remote-debugging-pipe --no-startup-window
-  - <launched> pid=3235
-  - [pid=3235][err] [0625/172748.585240:WARNING:audio_manager_linux.cc(53)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
-  - [pid=3235][err] [0625/172748.588512:INFO:config_dir_policy_loader.cc(118)] Skipping mandatory platform policies because no policy file was found at: /etc/chromium/policies/managed
-  - [pid=3235][err] [0625/172748.588533:INFO:config_dir_policy_loader.cc(118)] Skipping recommended platform policies because no policy file was found at: /etc/chromium/policies/recommended
-  - [pid=3235][err] Received signal 11 SI_KERNEL000000000000
-  - [pid=3235][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
-  - [pid=3235][err] #0 0x5620d629a332 [0625/172748.592571:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
-  - [pid=3235][err] base::debug::CollectStackTrace()
-  - [pid=3235][err] #1 0x5620d62879fe base::debug::StackTrace::StackTrace()
-  - [pid=3235][err] #2 0x5620d6299d41 base::debug::(anonymous namespace)::StackDumpSignalHandler()
-  - [pid=3235][err] #3 0x7f8d86c42520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
-  - [pid=3235][err] #4 0x7f8d86c44c1d getenv
-  - [pid=3235][err] #5 0x5620d6423679 epoll_init
-  - [pid=3235][err] #6 0x5620d6420b21 event_base_new
-  - [pid=3235][err] #7 0x5620d62a662d base::MessagePumpLibevent::MessagePumpLibevent()
-  - [pid=3235][err] #8 0x5620d61e7eeb base::MessagePump::Create()
-  - [pid=3235][err] #9 0x5620d6269423 base::internal::SequenceManagerThreadDelegate::BindToCurrentThread()
-  - [pid=3235][err] #10 0x5620d6269078 base::Thread::ThreadMain()
-  - [pid=3235][err] #11 0x5620d627d4ca base::(anonymous namespace)::ThreadFunc()
-  - [pid=3235][err] #12 0x7f8d86c94ac3 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x94ac2)
-  - [pid=3235][err] #13 0x7f8d86d26850 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x12684f)
-  - [pid=3235][err]   r8: ffffffffffffffff  r9: 0000079c00353160 r10: 00007ffd339c9080 r11: 0000000000000246
-  - [pid=3235][err]  r12: 00dc2200901c0000 r13: 000000000000000d r14: 000000000000000b r15: 00005620cf1db6b4
-  - [pid=3235][err]   di: 00005620cf1db6b2  si: 00007f8d709fb310  bp: 0000000000005645  bx: 00001c900022c800
-  - [pid=3235][err]   dx: 00005620cf1db6b2  ax: 000000000000000d  cx: 00007f8d86cec09b  sp: 00007f8d709fb2a0
-  - [pid=3235][err]   ip: 00007f8d86c44c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
-  - [pid=3235][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
-  - [pid=3235][err] [end of stack trace]
-
-2024-06-25 17:27:48,796 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
-2024-06-25 17:27:48,796 Error: It looks like you are using Playwright Sync API inside the asyncio loop.
-Please use the Async API instead.
+2024-06-25 18:29:46,091 Using selector: EpollSelector
+2024-06-25 18:31:48,442 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-06-25 18:31:48,442 Using selector: EpollSelector
+2024-06-25 18:33:50,652 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-06-25 18:33:50,652 Using selector: EpollSelector
+2024-06-25 18:35:52,873 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-06-25 18:35:52,873 Using selector: EpollSelector
+2024-06-25 18:37:55,085 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-06-25 18:37:55,085 Using selector: EpollSelector
+2024-06-25 18:39:57,776 Error: Data scraping unable to complete in 60.0s (retries: 3)
