@@ -1,16 +1,10 @@
-2024-10-06 10:29:48,525 Using selector: EpollSelector
-2024-10-06 10:31:50,931 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-06 10:31:50,932 Using selector: EpollSelector
-2024-10-06 10:33:53,297 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-06 10:33:53,297 Using selector: EpollSelector
-2024-10-06 10:35:56,868 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-06 10:35:56,868 Using selector: EpollSelector
-2024-10-06 10:36:27,255 Error: Page.goto: net::ERR_TIMED_OUT at https://www.tiktok.com/@texasbeeworks
-Call log:
-navigating to "https://www.tiktok.com/@texasbeeworks", waiting until "load"
-
-2024-10-06 10:36:27,255 Using selector: EpollSelector
-2024-10-06 10:36:31,319 Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@visitballyhoura
-Call log:
-navigating to "https://www.tiktok.com/@visitballyhoura", waiting until "load"
-
+2024-10-06 11:20:48,800 Using selector: EpollSelector
+2024-10-06 11:22:51,101 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-06 11:22:51,101 Using selector: EpollSelector
+2024-10-06 11:24:53,169 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-06 11:24:53,169 Using selector: EpollSelector
+2024-10-06 11:26:55,142 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-06 11:26:55,142 Using selector: EpollSelector
+2024-10-06 11:28:57,558 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-06 11:28:57,558 Using selector: EpollSelector
+2024-10-06 11:30:59,889 Error: Data scraping unable to complete in 60.0s (retries: 3)
