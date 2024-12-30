@@ -1,10 +1,13 @@
-2024-12-30 14:26:25,857 Using selector: EpollSelector
-2024-12-30 14:28:29,204 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-30 14:28:29,204 Using selector: EpollSelector
-2024-12-30 14:30:31,396 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-30 14:30:31,396 Using selector: EpollSelector
-2024-12-30 14:32:33,553 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-30 14:32:33,553 Using selector: EpollSelector
-2024-12-30 14:34:36,086 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-30 14:34:36,087 Using selector: EpollSelector
-2024-12-30 14:36:38,880 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-30 15:25:34,677 Using selector: EpollSelector
+2024-12-30 15:25:43,085 Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.tiktok.com/@iamtabithabrown
+Call log:
+  - navigating to "https://www.tiktok.com/@iamtabithabrown", waiting until "load"
+
+2024-12-30 15:25:43,085 Using selector: EpollSelector
+2024-12-30 15:27:47,005 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-30 15:27:47,005 Using selector: EpollSelector
+2024-12-30 15:29:49,170 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-30 15:29:49,171 Using selector: EpollSelector
+2024-12-30 15:31:51,431 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-30 15:31:51,431 Using selector: EpollSelector
+2024-12-30 15:33:54,184 Error: Data scraping unable to complete in 60.0s (retries: 3)
