@@ -1,10 +1,13 @@
-2025-01-06 17:25:22,105 Using selector: EpollSelector
-2025-01-06 17:27:24,839 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-01-06 17:27:24,840 Using selector: EpollSelector
-2025-01-06 17:29:27,063 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-01-06 17:29:27,064 Using selector: EpollSelector
-2025-01-06 17:31:29,415 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-01-06 17:31:29,415 Using selector: EpollSelector
-2025-01-06 17:33:31,796 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-01-06 17:33:31,796 Using selector: EpollSelector
-2025-01-06 17:35:34,493 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-01-06 18:33:58,709 Using selector: EpollSelector
+2025-01-06 18:36:00,925 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-01-06 18:36:00,925 Using selector: EpollSelector
+2025-01-06 18:36:11,965 Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.tiktok.com/@mirandagoesoutside
+Call log:
+  - navigating to "https://www.tiktok.com/@mirandagoesoutside", waiting until "load"
+
+2025-01-06 18:36:11,966 Using selector: EpollSelector
+2025-01-06 18:38:18,377 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-01-06 18:38:18,378 Using selector: EpollSelector
+2025-01-06 18:40:21,932 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-01-06 18:40:21,932 Using selector: EpollSelector
+2025-01-06 18:42:24,351 Error: Data scraping unable to complete in 60.0s (retries: 3)
