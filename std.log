@@ -1,13 +1,10 @@
-2025-05-12 14:32:53,577 Using selector: EpollSelector
-2025-05-12 14:34:56,545 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-05-12 14:34:56,545 Using selector: EpollSelector
-2025-05-12 14:36:59,393 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-05-12 14:36:59,393 Using selector: EpollSelector
-2025-05-12 14:39:02,185 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2025-05-12 14:39:02,185 Using selector: EpollSelector
-2025-05-12 14:41:30,066 Error: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.tiktok.com/@texasbeeworks
-Call log:
-  - navigating to "https://www.tiktok.com/@texasbeeworks", waiting until "load"
-
-2025-05-12 14:41:30,066 Using selector: EpollSelector
-2025-05-12 14:44:17,717 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-05-12 15:32:20,459 Using selector: EpollSelector
+2025-05-12 15:34:23,354 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-05-12 15:34:23,354 Using selector: EpollSelector
+2025-05-12 15:36:25,897 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-05-12 15:36:25,898 Using selector: EpollSelector
+2025-05-12 15:38:28,464 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-05-12 15:38:28,465 Using selector: EpollSelector
+2025-05-12 15:40:31,094 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2025-05-12 15:40:31,094 Using selector: EpollSelector
+2025-05-12 15:42:34,062 Error: Data scraping unable to complete in 60.0s (retries: 3)
